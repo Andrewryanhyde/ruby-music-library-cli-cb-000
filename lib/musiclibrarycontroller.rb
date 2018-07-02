@@ -35,3 +35,6 @@ class MusicLibraryController
       elsif user_input == "play song"
         self.play_song
       end
+    end
+  end
+end
