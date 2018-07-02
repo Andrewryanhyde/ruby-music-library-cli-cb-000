@@ -42,4 +42,6 @@ class Song
    @@all.find { |x| x.name == song}
  end
 
+ def add_song
+
 end
