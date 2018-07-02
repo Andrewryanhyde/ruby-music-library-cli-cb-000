@@ -11,10 +11,10 @@ class MusicImporter
      Dir.entries(path).select {|f| !File.directory? f }
   end
 
-  def self.import 
+  def self.import
     filename = self.files
-    filename.each do |file| 
+    filename.each do |file|
       Song.create_from_filename(file)
-  end
+    end
   end
 end
