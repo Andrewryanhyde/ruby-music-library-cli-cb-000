@@ -5,9 +5,9 @@ module Concerns::Findable
   end
 
   def create(name)
-   new_song = self.new(name)
-   new_song.save
-   new_song
+   new_entry = self.new(name)
+   new_entry.save
+   new_entry
   end
 
   def find_or_create_by_name(name)
