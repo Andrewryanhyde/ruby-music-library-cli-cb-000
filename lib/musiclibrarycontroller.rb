@@ -36,4 +36,3 @@ class MusicLibraryController
         self.play_song
       end
   end
-end
