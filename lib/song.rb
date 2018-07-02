@@ -14,7 +14,7 @@ class Song
    new_song = Song.new(name)
    new_song.save
    new_song
- end
+  end
 
   def save
    @@all << self
