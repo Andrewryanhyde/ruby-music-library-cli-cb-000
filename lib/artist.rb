@@ -41,7 +41,4 @@ class Artist
     self.songs.collect {|song| song.genre}.uniq
   end
 
-
-
-
 end
